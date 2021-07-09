@@ -1,0 +1,50 @@
+body{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+    
+    
+    flex-wrap: wrap;
+    
+}
+li{
+    text-align:center;
+    margin: 30px;
+    padding: 10px 20px;
+    border: 1px black solid;
+    border-radius: 8px;
+    width: 300px;
+    margin: 30px auto;
+    background-color: cadetblue;
+}
+body{
+    max-width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(211, 211, 250);
+
+}
+.box{
+    color: blue;
+}
+.box:hover{
+    transform:scale(1.1)
+}
+.inputHead{
+    display: flex;
+    justify-content: center;
+}
+.cancelling{
+   margin-left: -20px;
+    
+    font-size: medium;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    
+    
+}
